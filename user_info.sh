@@ -31,7 +31,7 @@ echo "CPU Type: $(sysctl -n hw.cputype)"
 echo "CPU Speed: $(sysctl -n hw.cpufrequency)"
 echo "Number of Cores: $(sysctl -n hw.physicalcpu)"
 echo "Number of Logical Cores: $(sysctl -n hw.logicalcpu)"
-echo "Total Memory: $(sysctl -n hw.memsize) bytes"
+echo "Total Memory: $(($(sysctl -n hw.memsize) / 1024 / 1024 / 1024)) GB"
 
 # Display disk space information
 echo "Disk Space Information:"
