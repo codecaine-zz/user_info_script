@@ -18,13 +18,7 @@ To use the `user_info.sh` script, follow these steps:
     cd user_info_script
     ```
 
-3. Before running the script, ensure it has execute permissions. Set the necessary permissions using `chmod`:
-
-    ```bash
-    chmod 770 user_info.sh
-    ```
-
-4. Run the script:
+3. Run the script:
 
     ```bash
     ./user_info.sh
